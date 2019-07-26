@@ -16,7 +16,7 @@ module FormsLab
         Ship.new(details)
       end
       
-      @ships.all
+      @ships = Ship.all
     end
     
   end
